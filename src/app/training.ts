@@ -23,7 +23,7 @@ function removeChar(str: string, char: string): string {
 
 
 let uploadStatus: "loading" | "success" | "error";
-let textFormat: "uppercase" | "lowercase" | "capitalize"
+let textFormat: "uppercase" | "lowercase" | "capitalize";
 
 
 interface IUser {
