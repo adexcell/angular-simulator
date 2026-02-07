@@ -3,7 +3,7 @@ function sum(a: number, b: number): number {
 }
 
 
-function formatString(str: string, textFormat: "uppercase" | "lowercase" | "capitalize"): string {
+function formatText(str: string, textFormat: "uppercase" | "lowercase" | "capitalize"): string {
   switch (textFormat) {
     case "uppercase":
       return str.toUpperCase();
